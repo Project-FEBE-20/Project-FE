@@ -1,0 +1,66 @@
+#containerartikel {
+  background-image: url("");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  padding-top: 6rem;
+  text-align: center;
+  font-family: "Sarabun", sans-serif;
+}
+
+form {
+  padding: 1rem 3rem 1rem 3rem;
+}
+
+
+.noselect {
+  border-radius: 10px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.noselect button {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Staatliches", cursive;
+  background: #9d1d06;
+  border: 2px solid black;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.4);
+  transition: 500ms;
+}
+
+.noselect button:after {
+  content: "";
+  position: absolute;
+  transform: translateX(-55px) translateY(-40px);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: 0px 0px 50px transparent;
+  transition: 500ms;
+}
+
+.noselect button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.noselect button:hover:after {
+  background: white;
+  box-shadow: 0px 0px 20px #ffc421, 0px 0px 30px #ffc421, inset 0px 0px 10px #ffc421;
+  animation: spin 1s infinite linear;
+}
+
+
+
+.noselect button:focus {
+  outline: none;
+}

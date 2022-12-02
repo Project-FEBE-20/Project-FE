@@ -1,0 +1,45 @@
+.navbar {
+  margin-top: 1rem;
+  margin-left: 5%;
+  background-color: #0e16828d;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px rgb(0 0 0 / 40%);
+  transition: 500ms;
+  width: 90%;
+  z-index: -1;
+}
+.navbar a {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.navbar a:hover {
+  color: rgb(255, 247, 0);
+}
+.dropdown a {
+  color: rgb(0, 0, 0);
+}
+.dropdown a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+a {
+  margin: 0.2rem;
+}
+
+.user {
+  color: whitesmoke;
+  background-color: transparent;
+  font-family: "Sarabun", sans-serif;
+  border: none;
+  color: rgb(255, 0, 0);
+  font-size: 20px !important;
+}
+.dropdown {
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px !important;
+}
+.well {
+  margin: 0 auto;
+}
