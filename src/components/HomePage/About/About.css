@@ -1,0 +1,13 @@
+#About {
+  padding: 2rem;
+  font-family: "Sarabun", sans-serif;
+  font-weight: bolder;
+}
+#About h1,
+#About h4,
+#About h5 {
+  font-weight: bolder;
+}
+.gambarabout {
+  width: 70px;
+}
