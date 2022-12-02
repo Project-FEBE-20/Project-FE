@@ -1,0 +1,10 @@
+#artikel {
+    padding-top: 7rem !important;
+    background-image: url("https://img.freepik.com/free-photo/blue-brushstrokes-background_125540-809.jpg?w=1060&t=st=1669718465~exp=1669719065~hmac=72414161a7133b1a5be54662892d8d9f665baa75b30b429d14d115c8e7f2cb1d");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3rem;
+  
+    text-align: center;
+    font-family: "Sarabun", sans-serif;
+  }
