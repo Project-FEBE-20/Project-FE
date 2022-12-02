@@ -108,7 +108,7 @@ function DaftarArtikel() {
                         <p className="list">Tanggal : {nama.createdAt}</p>
                         <p className="list">Penulis : {nama.writter.nama}</p>
                         <p className="list">Artikel : {nama.content}</p>
-                        <button className="btn btn-danger" onClick={() => hapus(nama._id)}>Hapus</button>
+//                         <button className="btn btn-danger" onClick={() => hapus(nama._id)}>Hapus</button>
                       </div>
                     </div>
                   </div>
